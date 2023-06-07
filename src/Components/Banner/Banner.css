@@ -1,0 +1,49 @@
+.bannerContainer{
+
+   height: 100vh;
+}
+
+.bannerTop{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 65%;
+}
+.bannerImgDiv{
+    width: fit-content;
+    
+}
+
+  
+  .bannerBtnDiv {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+  }
+  
+  .bannerBtn {
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) ;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+  
+ transition: 0.5  s;
+    display: inline-block;
+
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+  }
+  .bannerBtn:hover{
+background-color: black;
+  }
+  
+  .subTxt{
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,88 @@
+.links{
+  text-decoration: none;
+  font-size: 17px;
+  color: #4776ad;
+ font-weight: 500; 
+  transition: 0.3s;
+
+}.links:hover{
+  color: black;
+  cursor: pointer;
+}
+.box {
+  height: fit-content;
+}
+
+.abtRight {
+  text-align: left;
+}
+.list {
+  color: #424242;
+  padding-top: 20px;
+  display: flex;
+  text-align: left;
+  font-size: 17px;
+  line-height: 27.2px;
+  font-weight: 400;
+}
+
+.abtRight ul {
+  float: left;
+  list-style-type: disc;
+  padding: 15px;
+  margin: 0;
+}
+
+.subText {
+  line-height: 34px;
+  color: #424242;
+  font-weight: 400;
+  width: 35%;
+  
+
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.uniBottom{
+    width: 100%;
+    height: 68vh;
+    background-image: url(/public/universe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    
+    
+}
+
+.uniLinks{
+    margin-top: 40px;
+    width: 100%;
+    
+    font-weight: 500;
+    /* display: flex;
+ 
+    justify-content: space-evenly; */
+}
+
+.pricingLft{
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .list {
+    display: block;
+  }
+
+  .abtRight {
+    margin-top: 80px;
+  }
+  .subText {
+    text-align: center;
+    width: 100%;
+  }
+  .uniBottom{
+    background-size: contain;
+  }
+}

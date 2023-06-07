@@ -1,0 +1,52 @@
+.hamburgerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  padding: 0 10px;
+}
+.hamburgerIconContainer {
+  max-width: fit-content;
+  margin-left: auto;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.hamburgerIcon {
+  cursor: pointer;
+  max-width: 30px;
+}
+
+.hamburgerMenuContainer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hamNav-links {
+  height: 100%;
+  line-height: 60px;
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: left;
+
+  border-radius: 7px;
+  background: #ffffff;
+  box-shadow: -10px 10px 48px #f0f0f0, 10px -10px 48px #ffffff;
+}
+
+.hamMenuLink {
+  text-decoration: none;
+  color: #6f6f6f;
+  margin-top: 10px;
+}.hamMenuLink:hover{
+cursor: pointer;
+color: #4776ad;
+
+}
+
+@media only screen and (max-width: 400px) {
+  .hamburgerIconContainer {
+    margin-right: 10px;
+  }
+}
